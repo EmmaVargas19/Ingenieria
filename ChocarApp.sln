@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{01C8282E-7469-4815-976F-2AE456FDF60F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChocarService", "src\ChocarService\ChocarService.csproj", "{7A00855A-0779-435A-AF6C-FAD397162092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService", "src\IdentityService\IdentityService.csproj", "{59657145-8FE0-44A6-9CC3-52C2814EABF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A00855A-0779-435A-AF6C-FAD397162092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A00855A-0779-435A-AF6C-FAD397162092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A00855A-0779-435A-AF6C-FAD397162092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A00855A-0779-435A-AF6C-FAD397162092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59657145-8FE0-44A6-9CC3-52C2814EABF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59657145-8FE0-44A6-9CC3-52C2814EABF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59657145-8FE0-44A6-9CC3-52C2814EABF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59657145-8FE0-44A6-9CC3-52C2814EABF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A00855A-0779-435A-AF6C-FAD397162092} = {01C8282E-7469-4815-976F-2AE456FDF60F}
+		{59657145-8FE0-44A6-9CC3-52C2814EABF2} = {01C8282E-7469-4815-976F-2AE456FDF60F}
+	EndGlobalSection
+EndGlobal
